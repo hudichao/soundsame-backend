@@ -1,0 +1,23 @@
+{
+  "name": "soundsame-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "corser": "^2.0.1",
+    "express": "^4.14.0",
+    "lodash": "^4.15.0",
+    "mediaserver": "^0.1.0",
+    "promise-mysql": "^1.3.2",
+    "tracer": "^0.8.3",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
