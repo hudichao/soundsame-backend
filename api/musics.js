@@ -17,7 +17,7 @@ function add(obj) {
                 status: 'waiting',
                 added: Date.now()
             };
-
+            // 如果队列中至少有一首歌，那就单纯加入这首歌。否则放这首歌。
             if (response[0]['count(*)'] > 0) {
                 query('insert into musics set ?', insertObj)
                 .then(response => {
